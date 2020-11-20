@@ -1,0 +1,197 @@
+<!-- Carousel Banner -->	
+    <section class="section-carousel-banner">	
+        <div class="carousel owl-carousel">	
+            <div class="item">	
+                <img src="https://placehold.jp/50x50.png" alt="">	
+            </div>	
+            <div class="item">	
+                <img src="https://placehold.jp/150x150.png" alt="">	
+            </div>	
+            <div class="item">	
+                <img src="https://placehold.jp/150x150.png" alt="">	
+            </div>	
+            <div class="item">	
+                <img src="https://placehold.jp/150x150.png" alt="">	
+            </div>	
+            <div class="item">	
+                <img src="https://placehold.jp/150x150.png" alt="">	
+            </div>	
+            <div class="item">	
+                <img src="https://placehold.jp/150x150.png" alt="">	
+            </div>	
+        </div>	
+    </section>	
+    <!-- End Carousel Banner -->
+
+<section class="section-newsest">
+    <div class="container">
+        <div class="row">
+            <div class="header-latest-news">
+                <span class="latest-news">
+                    <h2>Ngỡ ngàng ngắm đồi chè phố núi sáng bừng trong ban mai</h2>
+                    <span class="datetime">
+                        06:00, 29/11/2020
+                    </span>
+                </span>
+                <div class="readmore">
+                    <a href="#">Xem thêm</a>
+                </div>
+            </div> <!-- end header-latest-news -->
+
+            <div class="content-latest-news">
+                <div class="row">
+                    <div class="left col-12 col-lg-8">
+                        <h2 class="title">
+                            <img src="" alt="">
+                        </h2>
+                        <p>
+                            Thành lập từ năm, Tập đoàn đã khẳng định vị trí trên thị trường xây dựng trong nước với
+                            hàng loạt những công trình trọng điểm tại Việt Nam và các khu vực lân cận. Thế mạnh ở
+                            việc tận dụng nguồn lực địa phương, Fanning ngày càng phát triển và thu hút nhiều vốn
+                            đầu tư từ nước ngoài. Với nội lực vững mạnh, Fanning đã sẵn sàng để vươn tầm ảnh hưởng
+                            ra khu vực.
+                        </p>
+                        <div class="frame">
+                            <div class="circle-big">
+                                <div class="text">
+                                    2758<div class="small">kcal</div>
+                                </div>
+                                <svg>
+                                    <circle class="bg" cx="57" cy="57" r="52"></circle>
+                                    <circle class="progress" cx="57" cy="57" r="52"></circle>
+                                </svg>
+                                <p>Lực lượng nhân lực trình độ chuyên môn cao</p>
+                            </div> <!-- end circle-big -->
+
+                            <div class="circle-big">
+                                <div class="text">
+                                    2758<div class="small">kcal</div>
+                                </div>
+                                <svg>
+                                    <circle class="bg" cx="57" cy="57" r="52"></circle>
+                                    <circle class="progress" cx="57" cy="57" r="52"></circle>
+                                </svg>
+                                <p>Lực lượng nhân lực trình độ chuyên môn cao</p>
+                            </div> <!-- end circle-big -->
+
+                            <div class="circle-big">
+                                <div class="text">
+                                    2758<div class="small">kcal</div>
+                                </div>
+                                <svg>
+                                    <circle class="bg" cx="57" cy="57" r="52"></circle>
+                                    <circle class="progress" cx="57" cy="57" r="52"></circle>
+                                </svg>
+                                <p>Lực lượng nhân lực trình độ chuyên môn cao</p>
+                            </div> <!-- end circle-big -->
+                        </div> <!-- end frame -->
+
+                        <div class="readmore">
+                            <a href="#">Xem thêm</a>
+                        </div>
+
+                    </div> <!-- end left -->
+
+                    <div class="right col-12 col-lg-4">
+                        <img src="" alt="">
+                    </div>
+                </div> <!-- end row -->
+            </div> <!-- end content-latest-news -->
+        </div> <!-- end row -->
+    </div> <!-- end container-->
+</section> <!-- End Latest News -->
+
+<!-- Home Product Company -->
+<section class="section-home-product">
+    <div class="container">
+        <div class="row">
+            <h2 class="title-section">Sản phẩm công ty</h2>
+            <div class="product">
+                <a href="#">
+                    <img src="" alt="">
+                </a>
+            </div>
+            <div class="product">
+                <a href="#">
+                    <img src="" alt="">
+                </a>
+            </div>
+            <div class="product">
+                <a href="#">
+                    <img src="" alt="">
+                </a>
+            </div>
+            <div class="product">
+                <a href="#">
+                    <img src="" alt="">
+                </a>
+            </div>
+            <div class="col-12">
+                <div class="readmore">
+                    <a href="#">Xem thêm</a>
+                </div>
+            </div>
+        </div> <!-- end row -->
+    </div> <!-- end container -->
+</section>
+<!-- End home Product Company-->
+
+<!-- Home Founders -->
+<section class="section-home-founders">
+    <div class="container">
+        <div class="row">
+            <div class="founders">
+                <div class="founder">
+                    <img src="" alt="">
+                    <span class="position">
+                        CEO
+                    </span>
+                    <span class="name">Nguyễn văn A</span>
+                    <span class="company-name">
+                        Tổng giá đốc Tập đoàn Fanning khu vực Việt Nam
+                    </span>
+                </div> <!-- end founder -->
+            </div>
+        </div> <!-- end row -->
+    </div> <!-- end container -->
+</section>
+<!-- End Home Founders-->
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="left">
+                <a href="#" class="logo-footer">
+                    <img src="" alt="">
+                </a>
+            </div>
+            <div class="right">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <h3 class="titlt-footer">
+                            Công ty cổ phần Fanning Việt nam
+                        </h3>
+                        <ul>
+                            <li>Địa chỉ: tầng 9, toà nhà Kim Hoàn, ngõ 19 Phố Duy Tân, quận Cầu Giấy, Hà Nội </li>
+                            <li>Tel: (024) 35842666 </li>
+                            <li>Hotline: 1900xxxx</li>
+                            <li>Fax: (024) 38541666 </li>
+                            <li>website: fanning.com.vn</li>
+                            <li>Email: fag@fanning.com.vn</li>
+                        </ul>
+                    </div>
+                    <div class="bottom col-12">
+                        <p>BẢN QUYỀN © 2020, CÔNG TY CÔNG NGHỆ SIÊU LIÊN KẾT</p>
+                        <div class="group-socials">
+                            <a href="#" class="facebook"></a>
+                            <a href="#" class="youtube"></a>
+                            <a href="#" class="twitter"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer -->

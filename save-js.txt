@@ -1,0 +1,104 @@
+App = {};
+(function ($) {
+    App.myFunction = () => {
+        console.log("a");
+    };
+
+    // The functions App
+    // Resize screen and addClass/removeClass of menu
+    App.checkWindowSize = () => {
+        var width = $(window).width(),
+            new_class = width > 1420 ? "menu-desk" : "menu-mobile";
+
+        $("header").removeClass("menu-desk menu-mobile").addClass(new_class);
+    };
+
+    App.addClassSlickMenu = () => {
+        var width = $(window).width(),
+            new_class = width > 992 ? "" : "multiple-items";
+
+        $(".nav-tabs").removeClass("multiple-items").addClass(new_class);
+        if (new_class) {
+            $(".multiple-items").slick({
+                infinite: false,
+                slidesToShow: 3,
+                slidesToScroll: 3,
+            });
+        }
+    };
+
+    $(".button-bar").on("click", function () {
+        $("body .main-nav").toggleClass("active");
+        $(".bg-pushmenu").addClass("in");
+    });
+
+    $(".bg-pushmenu").on("click", function () {
+        $(this).removeClass("in");
+        $("body .main-nav").removeClass("active");
+    });
+
+    $(".menu li").on("click", function () {
+        $(this).find(".sub-menu").toggleClass("active");
+        console.log(this);
+    });
+
+    // When resize screen
+    $(window).resize(function () {
+        App.checkWindowSize();
+        // App.addClassSlickMenu();
+    });
+
+    // Run first
+    $(document).ready(function () {
+        App.checkWindowSize();
+        // App.addClassSlickMenu();
+        $(
+            ".section-news .tab-content .tab-pane .left .hottab:not(:first-child)"
+        ).hide();
+
+        // $(".multiple-items").slick({
+        //     infinite: false,
+        //     slidesToShow: 3,
+        //     slidesToScroll: 3,
+        // });
+
+        $(".products").slice(0, 4).show();
+        $(".pro-viewmore").on("click", function (e) {
+            e.preventDefault();
+            $(".products:hidden").slice(0, 4).slideDown();
+            if ($(".products:hidden").length == 0) {
+                $(".pro-viewdetail").fadeIn("slow");
+                $(".pro-viewmore").hide();
+            }
+        });
+
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            responsiveClass:true,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:true,
+                    navText: ["<img src='../img/arrow-left.png'>","<img src='../img/arrow-right.png'>"],
+                    margin: 0
+                },
+                600:{
+                    items:2,
+                    nav:true,
+                    navText: ["<img src='../img/arrow-left.png'>","<img src='../img/arrow-right.png'>"]
+                },
+                1000:{
+                    items:4,
+                    nav:true,
+                    loop:false,
+                    navText: ["<img src='../img/arrow-left.png'>","<img src='../img/arrow-right.png'>"]
+                }
+            }
+        })
+    });
+})(jQuery);
+// menu sticky
+// https://codepen.io/prvnbist/pen/GQMPZq
+// https://codepen.io/itsthomas/pen/MpQeqG
+// https://codepen.io/axpart/pen/gOOaONW?__cf_chl_jschl_tk__=ab970a8dcd2d72908f75581cc6304d1a3249e14c-1605358259-0-AbWhMCwfW_li8tfYyHMrczbwQ0EvG7BuDkRqg_WYeptqiNHzCsMp6F29DIBrO-yyZDZTNTxexoqSpd0ZVvI2-350TsZK_tHAamgldmBa4RB04aChk4VNwsHxMEQameA95dGQSzUZZ_YTHElJT7k5zYkDtoujGuo0Ky3otvvuCz6ciAq8GJ1G2TeAK-5xblMz5ge9o6xFSECqYPOmNofAO75N8bWvlzNKp1n2oPiJC0joG1tzkeTRHowCt9Fv8e6_nRd96UBq4qY3AhSz3aMB7yK-YL6FyJG8Rh62gQ5URL-TmCLJIW-t4cAxGiOQjyPzh80jUt4XkFNnLGZ9tyEDlm8ITQFfJiDwfF5TJ5zeF7nA
